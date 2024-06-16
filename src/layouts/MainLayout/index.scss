@@ -1,0 +1,82 @@
+#components-layout-demo-fixed-sider .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout .site-layout-header {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-block: 40px;
+}
+
+.footer-logo div:nth-child(2) img {
+  margin-inline: 40px;
+}
+
+.site-layout .site-layout-background {
+  background: initial;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-layout-footer {
+  text-align: center;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 13px 113px;
+  font-weight: 500;
+  line-height: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .ant-layout-footer {
+    padding: 13px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-logo {
+    display: grid;
+  }
+
+  .ant-layout-footer {
+    justify-content: center;
+    display: grid;
+  }
+
+  .footer-logo div:nth-child(2) img {
+    margin-inline: 0px;
+    margin-block: 20px;
+  }
+
+  .footer-logo div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .site-layout-background {
+    padding-inline: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ant-form-item-control-input-content #image {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ant-form-item-control-input-content #image {
+    max-width: 320px;
+  }
+}

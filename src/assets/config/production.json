@@ -1,0 +1,29 @@
+{
+  "HOST_API": "https://vaipe-ocr.bk-ocr.ai/",
+  "CT2PET_API_ENDPOINTS": {
+    "FILE": {
+      "GET_CT_PIXEL_DATA": "get_ct_pixel_data",
+      "UPLOAD_CT": "upload_ct"
+    },
+    "TEST": {
+      "GET_CT_PET": "get_ct_pet",
+      "POST_CT_PET": "post_ct_pet"
+    }
+  },
+  "API_ENDPOINTS": {
+    "USER": {
+      "LOGIN": "auth/user/login"
+    },
+    "FILE": {
+      "UPLOAD": "kie/upload",
+      "EXPORT": "kie/export"
+    },
+    "FEEDBACK": {
+      "GET": "feedback/get",
+      "CREATE": "feedback/send"
+    }
+  },
+  "imgVar": "/var/www/html/",
+  "imgHttp": "https://kyrmann-gs.com/",
+  "TOKEN": "production token"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "template-vite-antd",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.3",
+    "@types/node": "^15.6.1",
+    "@types/react-router-dom": "^5.1.7",
+    "antd": "^4.15.0",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "js-cookie": "^3.0.5",
+    "js-file-download": "^0.4.12",
+    "konva": "^9.2.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.10.1",
+    "react-konva": "^17.0.2-3",
+    "react-router-dom": "^5.2.0",
+    "swr": "^2.2.0",
+    "use-image": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.2",
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.64.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  }
+}

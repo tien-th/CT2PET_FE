@@ -1,0 +1,81 @@
+/* App.css */
+
+/* Set the background color of the column headers */
+.card_table_result .ant-table-thead>tr>th {
+  background-color: #E9F3FF;
+}
+
+/* Set the background color of the odd rows */
+.card_table_result .ant-table-tbody>tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+/* Set the background color of the even rows */
+.card_table_result .ant-table-tbody>tr:nth-child(even) {
+  background-color: #E9F3FF;
+}
+
+.card_table_result .ant-table-cell {
+  border-left: 1px solid #e8e8e8;
+}
+
+/* Remove the border from the last cell in each row */
+.card_table_result .ant-table-row>.ant-table-cell:last-child {
+  border-right: none;
+}
+
+.content-box {
+  // width: 500px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .site-layout-background {
+    overflow: hidden;
+  }
+
+  .content-result {
+    display: grid;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    overflow: hidden;
+  }
+
+  .content-box {
+    width: unset;
+    min-width: 700px;
+  }
+
+  .content-result .content-box:last-child {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .content-box {
+    min-width: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content-box {
+    min-width: 480px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-box {
+    min-width: unset;
+    width: 450px;
+  }
+
+  .ant-card-body {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content-box {
+    width: 420px;
+  }
+}

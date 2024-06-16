@@ -1,0 +1,14 @@
+{
+    "HOST_API": "https://vaipe-ocr.bk-ocr.ai/kie/",
+    "API_ENDPOINTS": {
+        "USER": {
+            "LOGIN": "auth/user/login"
+        },
+        "FILE": {
+            "UPLOAD": "upload"
+        }
+    },
+    "imgVar": "/var/www/html/",
+    "imgHttp": "https://kyrmann-gs.com/",
+    "TOKEN": "production token"
+}

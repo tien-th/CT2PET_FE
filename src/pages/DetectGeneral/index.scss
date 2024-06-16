@@ -1,0 +1,50 @@
+.form-item-upload .ant-upload-select {
+  width: 100%;
+  height: 300px;
+  background-color: #FFF;
+  border-radius: 8px;
+  border: 2px dashed #C4C4C4;
+  padding: 10px 40px;
+}
+
+.image-upload {
+  width: 100%;
+  height: 100%;
+  object-fit: "cover";
+  z-index: 1;
+  position: inherit;
+}
+
+.ant-form-item-label label {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #666666;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  text-align: left;
+  padding: 10px 12px 10px 16px;
+  border-radius: 4px;
+  height: 54px;
+  border: 1px solid #C4C4C4;
+}
+
+.ant-layout {
+  background-color: #F5FAFF;
+}
+
+$max-width-konva: 500px;
+$max-height-konva: 600px;
+
+.konvajs-content {
+  // width: 100% !important;
+  max-width: $max-width-konva;
+  max-height: $max-height-konva;
+}
+
+.konvajs-content canvas {
+  // width: 100% !important;
+  max-width: $max-width-konva;
+  max-height: $max-height-konva;
+}
